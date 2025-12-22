@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/brandimage"
+        android:layout_width="64dp"
+        android:padding="8dp"
+        android:background="@drawable/oval_grey"
+        android:layout_height="64dp"/>
+
+    <TextView
+        android:id="@+id/brandText"
+        android:layout_width="wrap_content"
+        android:text="Puma"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="12dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

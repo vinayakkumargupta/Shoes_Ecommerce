@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Shoes" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi = "m">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi = "q">false</item>
+    </style>
+
+    <style name="ProfileTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi = "m">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi = "q">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ProfileDialogTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/ProfileDialogAnim</item>
+    </style>
+
+    <style name="ProfileDialogAnim">
+        <item name="android:windowEnterAnimation">@anim/profile_enter</item>
+        <item name="android:windowExitAnimation">@anim/profile_exit</item>
+    </style>
+
+
+
+    <style name="Theme.Shoes" parent="Base.Theme.Shoes" />
+
+    <style name="inter_400_12_24">
+        <item name="android:textSize">12dp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="inter_400_14_24">
+        <item name="android:textSize">16dp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="inter_700_44_40">
+        <item name="android:textSize">44dp</item>
+        <item name="android:lineHeight">40sp</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+    <style name="inter_semi_400_18_24">
+        <item name="android:textSize">18dp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="inter_500_24_20">
+        <item name="android:textSize">24dp</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="inter_500_18_20">
+        <item name="android:textSize">18dp</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="ProfileMenuItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

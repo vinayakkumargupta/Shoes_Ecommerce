@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="12dp"
+    android:layout_marginBottom="12dp"
+    android:layout_height="wrap_content">
+    
+
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="@drawable/common_bg_12radius"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/favbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:src="@drawable/btn_3"/>
+            
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="164dp"
+                android:padding="12dp"
+                android:scaleType="centerCrop"
+                android:layout_height="164dp"/>
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="8dp">
+
+                <!-- Price on start -->
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/inter_400_14_24"
+                    android:textColor="@color/black"
+                    android:text="250"/>
+
+                <!-- End container -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:src="@drawable/star"/>
+
+                    <TextView
+                        android:id="@+id/ratingNum"
+                        android:layout_marginStart="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/inter_400_12_24"
+                        android:text="4.5"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_marginHorizontal="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                style="@style/inter_400_14_24"
+                android:text="Test"/>
+        </LinearLayout>
+
+
+</RelativeLayout>
