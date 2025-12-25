@@ -1,44 +1,61 @@
-# 👟 Shoes E-Commerce App
+# 👟 Shoes E-Commerce Android App
 
-A modern **Shoes E-Commerce Android application** built to deliver a smooth and intuitive shopping experience.  
-The app allows users to browse shoes, view product details, manage cart items, and place orders with ease.
+A modern **Shoes E-Commerce Android application** designed with a clean UI and smooth user experience.  
+The app allows users to browse shoes, view product details, manage cart items, and complete the checkout flow seamlessly.
+
+---
+
+## 🎥 App Demo Video
+
+▶️ **Watch full app walkthrough**
+
+[Shoes E-Commerce Demo Video](Shoes_commerece.mov)
+
+> GitHub shows videos as downloadable links — this is expected behavior.
 
 ---
 
 ## 📱 App Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="220"/>
+  <img src="screenshots/splash.png" width="220"/>
+  <img src="screenshots/homepage.png" width="220"/>
   <img src="screenshots/product.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/myorders.png" width="220"/>
+  <img src="screenshots/whislist.png" width="220"/>
+  <img src="screenshots/order.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/profile.png" width="220"/>
   <img src="screenshots/cart.png" width="220"/>
-  <img src="screenshots/checkout.png" width="220"/>
 </p>
 
 ---
 
 ## ✨ Features
 
-- 🛍️ Browse shoes with clean and modern UI  
-- 🔍 View detailed product information  
-- ❤️ Add & remove items from cart  
-- 🧾 Order summary and checkout flow  
-- 🎨 Smooth animations and responsive design  
-- 📱 Optimized for multiple screen sizes  
+- 🛍️ Browse shoes with modern and clean UI  
+- 🔍 Product details with multiple images  
+- 🛒 Add, remove, and manage cart items  
+- 💳 Smooth checkout flow  
+- 🎨 Attractive UI animations  
+- 📱 Responsive design for different screen sizes  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language:** Kotlin  
-- **UI:** XML / Jetpack Compose *(if applicable)*  
+- **UI:** XML / Jetpack Compose  
 - **Architecture:** MVVM  
 - **Database:** Room  
-- **Async:** Coroutines  
-- **Dependency Injection:** Hilt  
 - **Image Loading:** Glide  
 
 ---
-
 ## 🚀 Getting Started
 
 1. Clone the repository
