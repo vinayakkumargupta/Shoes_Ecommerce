@@ -9,7 +9,7 @@ The app allows users to browse shoes, view product details, manage cart items, a
 
 ▶️ **Watch full app walkthrough**
 
-[Shoes E-Commerce Demo Video](Shoes_commerece.mov)
+[Shoes E-Commerce Demo Video](screenshots/Shoes_commerece.mov)
 
 > GitHub shows videos as downloadable links — this is expected behavior.
 
